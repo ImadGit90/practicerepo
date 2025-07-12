@@ -23,3 +23,8 @@ resource "azurerm_resource_group" "testing_rg2" {
   location = "west us"
   
 }
+resource "azurerm_resource_group" "testing_rg3" {
+  name = "testingrg2"
+  location = "west us"
+  
+}
