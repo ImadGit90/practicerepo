@@ -17,3 +17,9 @@ resource "azurerm_resource_group" "testing_rg" {
   location = var.resource_location
   
 }
+
+resource "azurerm_resource_group" "testing_rg2" {
+  name = "testingrg"
+  location = "west us"
+  
+}
